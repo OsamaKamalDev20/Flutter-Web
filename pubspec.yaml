@@ -1,0 +1,31 @@
+name: website
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Heading
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Bold.ttf
+          weight: 700
+    - family: SubHeading
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Medium.ttf
+          weight: 500
+    - family: Description
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Regular.ttf
+          weight: 400
